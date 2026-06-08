@@ -12,16 +12,29 @@ This build is a handheld Raspberry Pi Pico Pong console with real paddle control
 | 1 | MAX98357A I2S mono amplifier | Drives the speaker from Pico digital audio. |
 | 1 | Small speaker | 4 ohm or 8 ohm speaker for the amp output. |
 | 1 | Momentary pushbutton | Start button, normally open. |
-| 1 | Breadboard, perfboard, or solderable prototyping board | Use whatever suits the enclosure. |
-| Several | Jumper wires or hookup wire | 24-28 AWG works well. |
-
-## Optional Battery Parts
-
-| Qty | Part | Notes |
-| --- | --- | --- |
 | 1 | 3.7V LiPo battery | Capacity depends on desired runtime. |
 | 1 | TP4056 LiPo charger/protection board | Prefer a protected module with `B+`, `B-`, `OUT+`, and `OUT-`. |
 | 1 | Locking on/off switch | Put this between TP4056 `OUT+` and Pico `VSYS`. |
+| 1 | Breadboard, perfboard, or solderable prototyping board | Use whatever suits the enclosure. |
+| Several | Jumper wires or hookup wire | 24-28 AWG works well. |
+
+## Part Links
+
+Add direct purchase links here for the exact parts used in your build.
+
+| Part | Link |
+| --- | --- |
+| Raspberry Pi Pico or Pico W |  |
+| ILI9225 SPI LCD module |  |
+| 10k potentiometers |  |
+| MAX98357A I2S mono amplifier |  |
+| Small speaker |  |
+| Momentary pushbutton |  |
+| 3.7V LiPo battery |  |
+| TP4056 LiPo charger/protection board |  |
+| Locking on/off switch |  |
+| Breadboard/perfboard/prototyping board |  |
+| Hookup wire / jumper wire |  |
 
 ## Tools
 
