@@ -13,7 +13,7 @@ This tutorial walks through building `PING`, a Pong-inspired game for Raspberry 
 
 ## 2. Wire the Display
 
-Wire the ILI9225 display first. The screen is the trickiest part, so test it before adding everything else.
+Wire the ILI9225 display first. The screen is the trickiest part, so double-check each connection before adding everything else.
 
 | LCD signal | Pico pin |
 | --- | --- |
@@ -26,7 +26,7 @@ Wire the ILI9225 display first. The screen is the trickiest part, so test it bef
 | RST | `GP21` |
 | CS | `GP17` |
 
-Open `screen_test_ili9225.py` in Thonny and save it to the Pico as `main.py`. The screen should cycle through solid colors. If it stays white, check continuity on `CS`, `CLK`, `SDI`, `RS`, and `RST`.
+If the screen stays white after installing the game, the backlight is on but the display controller is not receiving commands. Check continuity on `CS`, `CLK`, `SDI`, `RS`, and `RST`.
 
 ## 3. Wire the Paddles
 
@@ -52,8 +52,6 @@ Wire the MAX98357A I2S amplifier.
 | DIN | `GP12` |
 
 Connect the speaker to the amplifier output terminals. If the amp is silent, connect `SD` to `Vin` to force the amp on.
-
-To test the amp, open `audio_test.py` in Thonny and save it to the Pico as `main.py`. It should play alternating tones.
 
 ## 5. Wire the Start Button
 
@@ -108,7 +106,7 @@ The backlight is powered, but the display controller is not receiving commands. 
 
 ### Audio is silent
 
-Run `audio_test.py`. If the test is silent, check `Vin`, `GND`, `LRC`, `BCLK`, `DIN`, speaker wiring, and the amp `SD` pin.
+Check `Vin`, `GND`, `LRC`, `BCLK`, `DIN`, speaker wiring, and the amp `SD` pin.
 
 ### Paddles move backward
 

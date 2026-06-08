@@ -41,16 +41,7 @@ See [BOM.md](BOM.md) and [TUTORIAL.md](TUTORIAL.md) for the complete wiring tabl
 ## Tuning
 
 - If the screen is only white, the backlight is on but the display is not receiving commands. Recheck `CS`, `RST`, `RS`, `CLK`, and `SDI`.
-- For screen debugging, save `screen_test_ili9225.py` to the Pico as `main.py`. It uses only the screen pins and cycles full-screen colors.
 - To make the game faster or slower, change the `time.sleep_ms(12)` line at the end of the game loop.
-
-## Diagnostic Scripts
-
-These helper files can be saved to the Pico as `main.py` while debugging:
-
-- `screen_test_ili9225.py`: verifies the ILI9225 display wiring.
-- `audio_test.py`: verifies the MAX98357A audio wiring.
-- `screen_wire_check.py`: pulses display pins for multimeter checks.
 
 ## Sources Checked
 
