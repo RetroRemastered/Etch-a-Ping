@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+screen_*_crop.png
+pico_right_pins_crop.png
