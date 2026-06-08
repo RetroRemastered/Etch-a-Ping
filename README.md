@@ -1,4 +1,4 @@
-# PING: Raspberry Pi Pico Pong
+# Etch-a-PING: Raspberry Pi Pico Pong
 
 `PING` is a MicroPython Pong-inspired game for a Raspberry Pi Pico with real potentiometer paddles, an ILI9225 SPI LCD, a MAX98357A I2S amplifier, and a momentary start button.
 
