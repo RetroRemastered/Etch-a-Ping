@@ -6,17 +6,16 @@ This build is a handheld Raspberry Pi Pico Pong console with real paddle control
 
 | Qty | Part | Notes |
 | --- | --- | --- |
-| 1 | Raspberry Pi Pico or Pico W | Headers recommended. |
+| 1 | Raspberry Pi Pico | No need for Pico 2. |
 | 1 | ILI9225 SPI LCD module | 176 x 220 display, red breakout board. |
 | 2 | 10k potentiometers | Linear taper preferred for paddle controls. |
 | 1 | MAX98357A I2S mono amplifier | Drives the speaker from Pico digital audio. |
-| 1 | Small speaker | 4 ohm or 8 ohm speaker for the amp output. |
-| 1 | Momentary pushbutton | Start button, normally open. |
-| 1 | 3.7V LiPo battery | Capacity depends on desired runtime. |
-| 1 | TP4056 LiPo charger/protection board | Prefer a protected module with `B+`, `B-`, `OUT+`, and `OUT-`. |
+| 1 | Game Boy DMG speaker | 8 ohm speaker for the amp output. |
+| 1 | Momentary pushbutton | Start button. |
+| 1 | 3.7V LiPo battery | Small Battery that actually fits. |
+| 1 | TP4056 LiPo charger/protection board | USB-C version. |
 | 1 | Locking on/off switch | Put this between TP4056 `OUT+` and Pico `VSYS`. |
-| 1 | Breadboard, perfboard, or solderable prototyping board | Use whatever suits the enclosure. |
-| Several | Jumper wires or hookup wire | 24-28 AWG works well. |
+| Several | Jumper wires or hookup wire | 30 AWG is what I use. |
 
 ## Part Links
 
@@ -24,17 +23,16 @@ Add direct purchase links here for the exact parts used in your build.
 
 | Part | Link |
 | --- | --- |
-| Raspberry Pi Pico or Pico W |  |
-| ILI9225 SPI LCD module |  |
-| 10k potentiometers |  |
-| MAX98357A I2S mono amplifier |  |
-| Small speaker |  |
-| Momentary pushbutton |  |
-| 3.7V LiPo battery |  |
-| TP4056 LiPo charger/protection board |  |
-| Locking on/off switch |  |
-| Breadboard/perfboard/prototyping board |  |
-| Hookup wire / jumper wire |  |
+| Raspberry Pi Pico or Pico W | https://amzn.to/4ftIaCY |
+| ILI9225 SPI LCD module | https://amzn.to/4e5MO7L |
+| 10k potentiometers | https://amzn.to/4dSDFkc |
+| MAX98357A I2S mono amplifier | https://amzn.to/4ogg4NH |
+| Game Boy DMG speaker | https://amzn.to/3S9yOTa |
+| Momentary pushbutton | https://amzn.to/4um4aTU |
+| 3.7V LiPo battery | https://amzn.to/49N2Diw |
+| TP4056 LiPo charger/protection board | https://amzn.to/3RUsTRW |
+| Locking on/off switch | https://amzn.to/4xhQewU |
+| Hookup wire / jumper wire | https://amzn.to/3S8yR1x |
 
 ## Tools
 
