@@ -29,7 +29,17 @@ Install the four `M2x4x3.2` heat-set inserts before final assembly. Use a heat-s
 
 After MicroPython is installed, open Thonny and make sure you can connect to the Pico.
 
-## 3. Prep the Main Parts
+## 3. Install the Game
+
+1. Open [`main.py`](main.py) in Thonny.
+2. Choose `File` -> `Save As...`.
+3. Select `Raspberry Pi Pico`.
+4. Save the file as exactly `main.py`.
+5. Unplug and reconnect the Pico, or restart the backend in Thonny.
+
+On boot, the screen shows `PING`. Press the start button to begin once the build is wired.
+
+## 4. Prep the Main Parts
 
 Before wiring everything together, mount or test-fit these parts in the printed front shell:
 
@@ -42,7 +52,7 @@ Before wiring everything together, mount or test-fit these parts in the printed 
 
 Keep the Pico, MAX98357A amp, TP4056 charger board, and battery loose until the wiring is mostly finished. This makes it easier to route wires without fighting the case.
 
-## 4. Wire the Display
+## 5. Wire the Display
 
 Wire the ILI9225 display first. The display is the trickiest part of the build, so take your time here.
 
@@ -59,7 +69,7 @@ Wire the ILI9225 display first. The display is the trickiest part of the build, 
 
 If the screen stays white after installing the game, the backlight is powered but the display controller is not receiving commands. Check continuity on `CS`, `CLK`, `SDI`, `RS`, and `RST`.
 
-## 5. Wire the Paddles
+## 6. Wire the Paddles
 
 Each potentiometer is wired as a voltage divider.
 
@@ -72,7 +82,7 @@ Use `3V3 OUT`, not `3V3_EN`. The `3V3_EN` pin controls the Pico regulator and sh
 
 If a paddle moves backward later, swap that potentiometer's two outer-leg wires.
 
-## 6. Wire the Audio
+## 7. Wire the Audio
 
 Wire the MAX98357A I2S amplifier.
 
@@ -88,7 +98,7 @@ Connect the speaker to the amplifier output terminals. Do not connect the speake
 
 If the amp is silent, connect the amp `SD` pin to `Vin` to force the amp on.
 
-## 7. Wire the Start Button
+## 8. Wire the Start Button
 
 Wire the normally open momentary switch:
 
@@ -99,7 +109,7 @@ Wire the normally open momentary switch:
 
 No external resistor is required because the firmware uses the Pico internal pull-up.
 
-## 8. Wire Battery Power
+## 9. Wire Battery Power
 
 Use a protected TP4056 charger board with a single-cell 3.7V LiPo.
 
@@ -115,16 +125,6 @@ Do not connect battery power to `3V3 OUT`. Use `VSYS`.
 The locking switch goes on the positive output side, between TP4056 `OUT+` and Pico `VSYS`. Charge the battery through the TP4056 USB port, not through the Pico USB port.
 
 For small LiPo cells, make sure the TP4056 charge current is appropriate for the battery capacity.
-
-## 9. Install the Game
-
-1. Open [`main.py`](main.py) in Thonny.
-2. Choose `File` -> `Save As...`.
-3. Select `Raspberry Pi Pico`.
-4. Save the file as exactly `main.py`.
-5. Unplug and reconnect the Pico, or restart the backend in Thonny.
-
-On boot, the screen shows `PING`. Press the start button to begin.
 
 ## 10. Final Assembly
 
