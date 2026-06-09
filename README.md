@@ -8,6 +8,7 @@ It boots to a title screen, plays with an Etch A Sketch-style grey-and-black loo
 
 - [Build tutorial](TUTORIAL.md)
 - [Bill of materials](BOM.md)
+- [3D print files](3d-print)
 
 ## Features
 
@@ -16,6 +17,7 @@ It boots to a title screen, plays with an Etch A Sketch-style grey-and-black loo
 - Two analog potentiometer paddles
 - MAX98357A I2S audio using RP2040 PIO
 - Momentary start button
+- 3D printed enclosure files included
 - Final score screen
 - First to 11, win by 2
 - Battery-power notes for TP4056/LiPo builds
@@ -37,6 +39,14 @@ See [BOM.md](BOM.md) and [TUTORIAL.md](TUTORIAL.md) for the complete wiring tabl
 2. Open `main.py` in Thonny.
 3. Save it to the Pico as `main.py`.
 4. Reset the Pico or unplug/replug it.
+
+## 3D Printing
+
+The enclosure files are in [`3d-print`](3d-print):
+
+- [`etch-a-ping-front.stl`](3d-print/etch-a-ping-front.stl)
+- [`etch-a-ping-back.stl`](3d-print/etch-a-ping-back.stl)
+- [`etch-a-ping-knob.stl`](3d-print/etch-a-ping-knob.stl), print two
 
 ## Tuning
 
