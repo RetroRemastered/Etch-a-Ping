@@ -14,7 +14,9 @@ The printable parts are in the [`3d-print`](3d-print) folder:
 | [`etch-a-ping-back.stl`](3d-print/etch-a-ping-back.stl) | Back shell. |
 | [`etch-a-ping-knob.stl`](3d-print/etch-a-ping-knob.stl) | Potentiometer knob. Print two knobs. |
 
-Print one front, one back, and two knobs. Test-fit the screen, pots, start button, switch, speaker, Pico, battery, and charger board before soldering the final wiring. The case is tight, so it is easier to fix fit issues before the wires are attached.
+Print one front, one back, and two knobs. Test-fit the screen, pots, start button, switch, speaker, Pico, battery, charger board, heat-set inserts, and screws before soldering the final wiring. The case is tight, so it is easier to fix fit issues before the wires are attached.
+
+Install the heat-set inserts before final assembly. Use a heat-set insert tip or a soldering iron set to a moderate temperature, press each insert in slowly, and let the plastic cool before test-fitting the screws. The inserts should sit flush and straight so the back shell closes without stress.
 
 ## 2. Flash MicroPython
 
@@ -36,6 +38,7 @@ Before wiring everything together, mount or test-fit these parts in the printed 
 - Momentary start button
 - Locking power switch
 - Speaker
+- Heat-set inserts and case screws
 
 Keep the Pico, MAX98357A amp, TP4056 charger board, and battery loose until the wiring is mostly finished. This makes it easier to route wires without fighting the case.
 
@@ -133,7 +136,7 @@ Once the screen, controls, audio, and battery wiring all work:
 4. Position the speaker so it is not pressing hard into the screen or Pico.
 5. Secure the Pico, amplifier, TP4056 board, and battery.
 6. Route wires so the back shell does not pinch them.
-7. Close the case.
+7. Close the case with the machine screws and heat-set inserts.
 
 Power it on with the locking switch, wait for the `PING` title, then press the start button.
 
