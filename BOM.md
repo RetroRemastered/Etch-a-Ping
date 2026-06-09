@@ -19,12 +19,11 @@ This build is a handheld Raspberry Pi Pico Pong console with real paddle control
 
 ## Case Hardware
 
-Add the exact screw and insert sizes used for your printed case here.
-
 | Qty | Part | Notes |
 | --- | --- | --- |
-| TBD | Heat-set inserts | Used in the printed case so the back can screw on cleanly. |
-| TBD | Machine screws | Used with the heat-set inserts to close the case. |
+| 4 | `M2x4mm` machine screws | Used to mount the screen. |
+| 4 | `M2x4x3.2` heat-set inserts | Used in the printed case so the back can screw on cleanly. |
+| 4 | `M2x8mm` machine screws | Used with the heat-set inserts to close the two case halves. |
 
 ## Part Links
 
@@ -42,8 +41,9 @@ Add direct purchase links here for the exact parts used in your build.
 | TP4056 LiPo charger/protection board | https://amzn.to/3RUsTRW |
 | Locking on/off switch | https://amzn.to/4xhQewU |
 | Hookup wire / jumper wire | https://amzn.to/3S8yR1x |
-| Heat-set inserts |  |
-| Machine screws |  |
+| `M2x4mm` screen screws |  |
+| `M2x4x3.2` heat-set inserts |  |
+| `M2x8mm` case screws |  |
 
 ## Tools
 

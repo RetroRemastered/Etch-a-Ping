@@ -14,9 +14,9 @@ The printable parts are in the [`3d-print`](3d-print) folder:
 | [`etch-a-ping-back.stl`](3d-print/etch-a-ping-back.stl) | Back shell. |
 | [`etch-a-ping-knob.stl`](3d-print/etch-a-ping-knob.stl) | Potentiometer knob. Print two knobs. |
 
-Print one front, one back, and two knobs. Test-fit the screen, pots, start button, switch, speaker, Pico, battery, charger board, heat-set inserts, and screws before soldering the final wiring. The case is tight, so it is easier to fix fit issues before the wires are attached.
+Print one front, one back, and two knobs. Test-fit the screen, pots, start button, switch, speaker, Pico, battery, charger board, four `M2x4x3.2` heat-set inserts, four `M2x4mm` screen screws, and four `M2x8mm` case screws before soldering the final wiring. The case is tight, so it is easier to fix fit issues before the wires are attached.
 
-Install the heat-set inserts before final assembly. Use a heat-set insert tip or a soldering iron set to a moderate temperature, press each insert in slowly, and let the plastic cool before test-fitting the screws. The inserts should sit flush and straight so the back shell closes without stress.
+Install the four `M2x4x3.2` heat-set inserts before final assembly. Use a heat-set insert tip or a soldering iron set to a moderate temperature, press each insert in slowly, and let the plastic cool before test-fitting the `M2x8mm` screws. The inserts should sit flush and straight so the back shell closes without stress.
 
 ## 2. Flash MicroPython
 
@@ -131,12 +131,13 @@ On boot, the screen shows `PING`. Press the start button to begin.
 Once the screen, controls, audio, and battery wiring all work:
 
 1. Place the screen into the front shell.
-2. Install the potentiometers and knobs.
-3. Install the start button and locking power switch.
-4. Position the speaker so it is not pressing hard into the screen or Pico.
-5. Secure the Pico, amplifier, TP4056 board, and battery.
-6. Route wires so the back shell does not pinch them.
-7. Close the case with the machine screws and heat-set inserts.
+2. Secure the screen with four `M2x4mm` screws.
+3. Install the potentiometers and knobs.
+4. Install the start button and locking power switch.
+5. Position the speaker so it is not pressing hard into the screen or Pico.
+6. Secure the Pico, amplifier, TP4056 board, and battery.
+7. Route wires so the back shell does not pinch them.
+8. Close the case with four `M2x8mm` screws threaded into the heat-set inserts.
 
 Power it on with the locking switch, wait for the `PING` title, then press the start button.
 
