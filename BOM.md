@@ -41,9 +41,9 @@ Add direct purchase links here for the exact parts used in your build.
 | TP4056 LiPo charger/protection board | https://amzn.to/3RUsTRW |
 | Locking on/off switch | https://amzn.to/4xhQewU |
 | Hookup wire / jumper wire | https://amzn.to/3S8yR1x |
-| `M2x4mm` screen screws |  |
+| `M2x4mm` screen screws | https://s.click.aliexpress.com/e/_c4rYxvI9 |
 | `M2x4x3.2` heat-set inserts | https://s.click.aliexpress.com/e/_c3U6pgQp |
-| `M2x8mm` case screws |  |
+| `M2x8mm` case screws | https://s.click.aliexpress.com/e/_c4rYxvI9 |
 
 ## Tools
 
