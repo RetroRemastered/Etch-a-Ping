@@ -42,7 +42,7 @@ Add direct purchase links here for the exact parts used in your build.
 | Locking on/off switch | https://amzn.to/4xhQewU |
 | Hookup wire / jumper wire | https://amzn.to/3S8yR1x |
 | `M2x4mm` screen screws |  |
-| `M2x4x3.2` heat-set inserts |  |
+| `M2x4x3.2` heat-set inserts | https://s.click.aliexpress.com/e/_c3U6pgQp |
 | `M2x8mm` case screws |  |
 
 ## Tools
