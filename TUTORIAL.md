@@ -2,6 +2,8 @@
 
 This written guide follows the same general flow as the video walkthrough: gather the parts, print the enclosure, wire the electronics in small sections, load the firmware, then close it up and play.
 
+You can follow along with me as I build it in this video here: https://youtu.be/AFBS6jwd1_I
+
 `PING` is a Pong-inspired game for Raspberry Pi Pico with real potentiometer paddles, an ILI9225 LCD, MAX98357A audio, a start button, and LiPo battery power.
 
 ## 1. Print the Enclosure
